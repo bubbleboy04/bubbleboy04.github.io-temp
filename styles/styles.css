@@ -162,16 +162,49 @@ nav{
 
 }
 .gameDesc{
-    display: block;
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     font-size: 16pt;
     color:white;
     list-style: none;
     margin-top: 50px;
 }
-.descPoints > li{
-    margin-top: 25px;
+.descPoints{
     list-style: none;
+}
+.devImg{
+    display: inline-block;
+    
+    top:0;
+    width: 450px;
+    height: auto;
+    padding-top: 10%;
+    padding-bottom: 10px;
+
+}
+.descContainer > li{
+    margin-top: 40px;
+    
+    font-size: 20pt;
+}
+.descContainer{
+    display: inline-flex; 
+    width: 60%; 
+    flex-direction: column;
+    list-style: square;
+    text-align: left;
+    
+}
+.vidCon{
+    display: inline-flex; 
+    flex-direction: column; 
+    align-items: center;
+    background-color: rgba(34, 31, 59, 0.123);
+    padding:1%;
+    padding-top: 0;
+    margin-left: 1%;
 }
 
 

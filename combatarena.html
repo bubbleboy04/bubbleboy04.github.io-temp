@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football QB Game Preview</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    
+        
+
+    <h1><text class="text">Matthew Low - Portfolio</text></h1>  
+    <header> 
+        <nav>
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="football_index.html">Football QB</a></li>
+                <li><a href="ghost_index.html">Poltergeist</a></li>
+                <li><a href="combatarena.html">Combat Arena</li>
+                <li><a href="dev_index.html">Development</a></li>
+                <li><a href="#fooby">Contact</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    
+
+    
+
+    <div id="images" class="active">
+        <div style="text-align:center;" class = "container">
+            <div style="display: inline-block;">
+                <img src="images/ca1.PNG" id="mainImage">
+                <text id="imageDesc"> Screenshots taken in game. </text>
+            </div>
+            
+            
+            <ul id="col">
+                <li><img src="images/ca1.PNG" onclick="imageClick(this);" class="sideImage" id="sideImage0">
+                <li><img src="images/ca2.PNG" onclick="imageClick(this);" class="sideImage" id="sideImage1">
+                <li><img src="images/ca3.PNG" onclick="imageClick(this);" class="sideImage" id="sideImage2">
+                <li><img src="images/ca4.PNG" onclick="imageClick(this);" class="sideImage" id="sideImage3">
+                <li><img src="images/ca5.PNG" onclick="imageClick(this);" class="sideImage" id="sideImage4">
+            </ul>
+        </div>
+    </div>
+    
+    <div style="text-align: center;">
+        <text id="gameTitle">
+            Neon Combat Arena
+        </text>
+    </div>
+
+    <div class="gameDesc">
+        <ul class="descPoints">
+            <li style="font-weight: bolder;"> Features</li>
+            <li>  __</li>
+            <li> Low Resolution Neon Graphics </li>
+            <li> Multiple Sword Attacks with Mouse Buttons </li>
+            <li> Full Collider Projectiles Fired from Guns</li>
+            <li> Seemless Animations with Enemies</li>
+            <li> Fully Ragdoll Enemies that React to Impacts</li>
+            <li> Each Enemy is Independent, Operating as a NavAgent</li>
+            <li> Enemy Spawns handled Procedurally to Reduce Performance Impact </li>
+            
+        </ul>
+    </div>
+    <div style="display: block; height: 200px"></div>
+    
+
+    <a href="https://www.indiedb.com/games/football-qb-sim" title="View Football QB Sim on Indie DB" target="_blank"><img src="https://media.indiedb.com/images/global/indiedb.png" alt="Football QB Sim" /></a>
+    <script src="scripts/home.js";></script>
+</body>
+</html>

@@ -19,6 +19,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="football_index.html">Football QB</a></li>
                 <li><a href="ghost_index.html">Poltergeist</a></li>
+                <li><a href="combatarena.html">Combat Arena</li>
                 <li><a href="dev_index.html">Development</a></li>
                 <li><a href="#fooby">Contact</a></li>
             </ul>
@@ -26,20 +27,20 @@
         </nav>
     </header>
     
-    <div>
-        <ul>
+    <div class="gameDesc">
+        
+        <ul class="descContainer">
+            <h1 style="font-size: 45pt;"> Football QB Sim</h1>
             <li> Football QB Sim was the first completed solo project released</li>
-            <img src="/images/football1.PNG">
+            
             <li> Project began with a basic ball throwing mechanism that translated a ball object in a straight line from an elevated position</li>
             <li> Tested colliders on the ball and on a receiver standin to see how Unity would handle the catching of the ball</li>
-            <img src="#receivermodel">
+            
             <li> Created very basic receiver models with in-engine GameObjects for further testing.
             <li> Precoded routes by using coroutines in script that uses percentage of remaining field and receiver rotation
-            <img src="#routes_ss">
+            
             <li> Began adding more set decoration to make the environment more visually appealing
             
-            <li> 
-
             <li> In an effort to make the throwing more realistic, I started looking into new methods to handle the ball throw.
             <li> Had to find a solution that would result in short throws having a low arc and deeper throws having a higher arc.
             <li> Once fixed velocity throwing methods had been exhausted, I began looking into different physics concepts for the desired result.
@@ -47,6 +48,19 @@
             <li> With an accurate throwing mechanic, the controlled QB could receive a character model and be placed on the field.
             
         </ul>
+        <div class="vidCon">
+            <video src="/videos/fb1.mp4" controls class="devImg"></video>
+            <text>First experimental stage</text>
+            <video src="/videos/fb2.mp4" controls class="devImg"></video>
+            <text>First Implementation of Defense AI</text>
+            <video src="/videos/fb3.mp4" controls class="devImg"></video>
+            <text>First Implementation of Play Selection</text>
+            <video src="/videos/fb5.mp4" controls class="devImg"></video>
+            <text>Improved Ball Throwing Implementation</text>
+            <video src="/videos/fb9.mp4" controls class="devImg"></video>
+            <text>Final Product</text>
+        </div>
+        
     </div>
     
 
